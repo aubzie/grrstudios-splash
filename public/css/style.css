@@ -1,0 +1,84 @@
+body {
+    background: #000 url(../img/PZ_splash_2017.jpg) top left no-repeat;
+    color: #FFF;
+    background-size: 100%;
+}
+
+#pz-logo {
+    margin: 15px auto;
+    display: block;
+    width: 55%;
+}
+
+#grr-email {
+    margin: 25px auto;
+    font-size: 20px;
+}
+
+#grr-email a {
+    color: #FFA402;
+}
+
+.follow-txt {
+    text-transform: uppercase;
+    color: #FFA402;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#social a {
+    margin: auto 10px;
+}
+
+.social {
+    margin: 0 auto 5px;
+    display: block;
+}
+
+#pz-video {
+    margin: 30px auto 15px;
+    display: block;
+    width: 80%;
+}
+
+.embed-container { 
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+}
+
+#grr-logo {
+    margin: 15px auto;
+    display: block;
+}
+
+#contact-form {
+    margin: 45px auto 25px;
+}
+
+#rights {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+#email-success {
+    color: #FFA402;
+    font-size: 28px;
+}
+
+
+
+@media (max-width: 767px) { 
+    body {
+        background-size: 300%;
+    }
+
+    #pz-logo {
+        margin-bottom: 70%;
+    }
+    
+}
+
+

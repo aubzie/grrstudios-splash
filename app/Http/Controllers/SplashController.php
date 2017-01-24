@@ -42,8 +42,8 @@ class SplashController extends Controller
             return redirect('/')->withErrors($validator)->withInput();
         }
 
-        \Mail::to(env('CONTACT_EMAIL'))->send(new ContactForm($request->fullname, $request->email, $request->comment));
-        
+        \Mail::to(env('CONTACT_EMAIL'))->send(new ContactForm($request->fullname, $request->email, $request->comments));
+
         return redirect('/')->with('success', true);
 
         //view('splash2017', ['success' => true]);

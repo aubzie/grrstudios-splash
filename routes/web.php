@@ -12,4 +12,8 @@
 */
 
 Route::get('/', 'SplashController@index');
+Route::get('/pillow-zombies', function() {
+    return redirect('/');
+});
+
 Route::post('/', 'SplashController@postIndex');
